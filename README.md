@@ -12,6 +12,12 @@ The government of Navistria, a human-colonized country on Mars, seeks to moderni
 - [Contributing](#contributing)
 - [License](#license)
 
+## UI 
+![Form](image.png)
+![Grievanance List](image-1.png)
+![Translation text](image-2.png)
+![AI Solutions](image-3.png)
+
 ## Functional Requirements
 1. **Conversational AI for Grievance Filing**
    - A text-based conversational AI system capable of interacting with users in Hindi and English to file grievances.
