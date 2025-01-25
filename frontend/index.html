@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAI-GRMS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Grievance Management System</h1>
+
+    <div class="grievance-form">
+        <h2>File a Grievance</h2>
+        <form id="grievanceForm">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <button type="button" id="start-record-btn">🎤 Start Recording</button>
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required>
+            <label for="userId">User ID:</label>
+            <input type="text" id="userId" name="userId" required>
+            <label for="parentId">Parent Grievance ID (if any):</label>
+            <input type="text" id="parentId" name="parentId">
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="image">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="grievance-list">
+        <h2>Grievance List</h2>
+        <ul id="grievanceList"></ul>
+    </div>
+    <!-- Loader Modal -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Loading, please wait...</p>
+        </div>
+    </div>
+    <!-- Modal Pop-up for AI Solution -->
+    <div id="solutionModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>AI Solution Suggestion</h2>
+            <p id="solutionText"></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

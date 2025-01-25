@@ -1,0 +1,14 @@
+flask
+flask_sqlalchemy
+sqlalchemy
+nltk
+opencv-python
+pytesseract
+google-cloud-speech
+transformers
+flask-cors
+joblib
+Flask-Migrate
+python-dotenv
+translate
+
