@@ -92,7 +92,7 @@ The government of Navistria, a human-colonized country on Mars, seeks to moderni
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   flask run
+   flask run (FLASK_APP=main.py flask run)
    note: you also backend/apps/model/yolov3.weights
         backend/apps/model/yolov3.cfg
         backend/apps/model/coco.names this files if missing
